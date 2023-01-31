@@ -16,7 +16,8 @@ $(function () {
         //Hide All Divs
         $('.tabs-section .tabs-content > div').hide();
         //Show Div Connected With This Link
-        $($(this).date('class')).show();
+        $('.'+$(this).data('class')).show();
+        window.console.log($(this).data('class'));
     });
 });
     

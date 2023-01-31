@@ -295,13 +295,13 @@ body {
     background-color: #ff8b38;
 }
 .tabs-section .container .row .tabs-content div:not(.tab-one) {
-    display: none;
+    /*display: none;*/
 }
 .tabs-section .container .row .tabs-content div:not(.tab-two) {
-    display: none;
+    /*display: none;*/
 }
 .tabs-section .container .row .tabs-content div:not(.tab-three) {
-    display: none;
+    /*display: none;*/
 }
 .tabs-section .container .row .tabs-content .tab-one h3 {
     letter-spacing: -1px;
