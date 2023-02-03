@@ -18,6 +18,6 @@ $(function () {
         //Show Div Connected With This Link
         $('.'+$(this).data('class')).show();
         window.console.log($(this).data('class'));
-    });
+    });  
 });
     
